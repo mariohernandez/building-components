@@ -10,7 +10,7 @@ You will find all working files within the `/src` folder.  This project was buil
 All code changes get compiled into `/dist` by using gulp.  See commands below for compiling Sass, JS, Styleguide.
 
 ## Styleguide
-This project uses [KSS Node](https://github.com/kss-node/kss-node), which facilitates creating a styleguide to catalog your components.  To view this project's styleguide go to (http://<project-root>/components/dist/style-guide/.
+This project uses [KSS Node](https://github.com/kss-node/kss-node), which facilitates creating a styleguide to catalog your components.  To view this project's styleguide go to http://localhost/components/dist/style-guide/. (change localhost to match your local path).
 
 ## Getting Started
 If you haven't yet, install nvm:
