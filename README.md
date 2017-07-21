@@ -4,6 +4,8 @@
 This is a sandbox project that show how to break a page down into smaller pieces to
 effectively build components.  Main goal of building components is to reduce code duplication by making components reusable across an entire site.
 
+![Building Components](/dist/assets/components.png "Building Components")
+
 ## About the code
 You will find all working files within the `/src` folder.  This project was built with Twig, which is a PHP templating system, but it can also be built with plain html, jekyll or handlebars.  Reason for using Twig was that this is the platform I use for buiding drupal themes.
 
