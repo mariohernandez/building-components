@@ -29,7 +29,7 @@ html {
 body {
   margin: 0;
   font-size: 1.8rem;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #464646; }
@@ -56,7 +56,8 @@ h4,
 h5,
 h6 {
   line-height: 1.25rem;
-  margin: 0 0 1rem; }
+  margin: 0 0 1rem;
+  font-family: "Merriweather", serif; }
 
 h1 {
   font-size: 3rem; }

@@ -1,4 +1,4 @@
-# Components Style Guide
+# Building Components - Style Guide
 
 This application is a living style guide, generated from KSS documented styles.
 

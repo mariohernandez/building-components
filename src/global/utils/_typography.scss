@@ -11,6 +11,8 @@
 // Weight: 999
 //
 // Style guide: Type
+$font-primary: 'Raleway', sans-serif;
+$font-secondary: 'Merriweather', serif;
+$font-tertiary: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
-$font-primary: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$font-secondary: Arial, Verdana, sans-serif;
+// For primary and secondary fonts implementation, look in `src/style-guide/builder/index.twig.  You will see the font references in the page's <head>.

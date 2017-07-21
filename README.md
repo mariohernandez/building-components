@@ -5,7 +5,7 @@ This is a sandbox project that show how to break a page down into smaller pieces
 effectively build components.  Main goal of building components is to reduce code duplication by making components reusable across an entire site.
 
 ![Building Components](/dist/assets/components.png "Building Components")
-_Sample mockup of full component_ --
+
 ---
 
 ## About the code
