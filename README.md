@@ -6,8 +6,42 @@ effectively build components.  Main goal of building components is to reduce cod
 
 ![Building Components](/dist/assets/components.png "Building Components")
 
----
 
+## Breaker code
+```html
+<section class="breaker">
+  <div class="breaker__hero">
+    <img src='../assets/hero.png' alt='Alt text'>
+  </div>
+
+  <div class="breaker__top">
+    <p class="eyebrow  breaker__eyebrow">Drupal Development</p>
+    <h2 class="breaker__heading">Component main heading here</h2>
+    <p class="breaker__intro">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+  </div>
+
+  <div class="breaker__cards">
+    <article class="card breaker__card breaker__card--first">
+      <span class="card__icon"><svg>...</svg></span>
+      <h3 class="card__heading">Fully responsive content</h3>
+      <p class="card__teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+    </article>
+
+    <article class="card breaker__card breaker__card">
+      <span class="card__icon"><svg>...</svg></span>
+      <h3 class="card__heading">Fully responsive content</h3>
+      <p class="card__teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+    </article>
+
+    <article class="card breaker__card breaker__card--last">
+      <span class="card__icon"><svg>...</svg></span>
+      <h3 class="card__heading">Fully responsive content</h3>
+      <p class="card__teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+    </article>
+  </div>
+</section>
+```
+---
 ## About the code
 You will find all working files within the `/src` folder.  This project was built with Twig, which is a PHP templating system, but it can also be built with plain html, jekyll or handlebars.  Reason for using Twig was that this is the platform I use for buiding drupal themes.
 
