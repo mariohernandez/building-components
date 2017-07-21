@@ -1,7 +1,7 @@
 # Building Components - Breaking it down
-#### A sandbox project by (http://mariohernandez.io)[Mario Hernandez].
+#### A sandbox project by [Mario Hernandez](http://mariohernandez.io).
 
-This is a sample repo that show how to break a page down into smaller pieces to
+This is a sandbox project that show how to break a page down into smaller pieces to
 effectively build components.  Main goal of building components is to reduce code duplication by making components reusable across an entire site.
 
 ## About the code
@@ -10,7 +10,7 @@ You will find all working files within the `/src` folder.  This project was buil
 All code changes get compiled into `/dist` by using gulp.  See commands below for compiling Sass, JS, Styleguide.
 
 ## Styleguide
-This project uses KSS Node which facilitates creating a styleguide to catalog your components.  To view this project's styleguide go to (http://localhost/components/dist/style-guide/section-components.html)[http://localhost/components/dist/style-guide/].
+This project uses [KSS Node](https://github.com/kss-node/kss-node), which facilitates creating a styleguide to catalog your components.  To view this project's styleguide go to (http://<project-root>/components/dist/style-guide/.
 
 ## Getting Started
 If you haven't yet, install nvm:
