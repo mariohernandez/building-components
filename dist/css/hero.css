@@ -1,13 +1,50 @@
 .hero__image {
+  height: 350px;
+  overflow: hidden;
   position: relative;
+  width: 100%;
   line-height: 0.8;
   overflow: hidden; }
   .hero__image::before {
     content: '';
     display: block;
-    background: rgba(1, 38, 53, 0.8);
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0; }
+    background: #012635;
+    opacity: 0.8;
+    z-index: 10; }
+  .hero__image picture,
+  .hero__image img {
+    height: 100%;
+    left: 50%;
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; }
+  .hero__image picture,
+  .hero__image img.lazyload,
+  .hero__image img.lazyloading {
+    width: 100%; }
+  @media (min-width: 64em) {
+    .hero__image {
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      width: 100%; }
+      .hero__image picture,
+      .hero__image img {
+        height: 100%;
+        left: 50%;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: auto; }
+      .hero__image picture,
+      .hero__image img.lazyload,
+      .hero__image img.lazyloading {
+        width: 100%; } }

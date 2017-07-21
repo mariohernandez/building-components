@@ -3,10 +3,16 @@
 
 .breaker__top {
   position: absolute;
-  top: 3rem;
-  left: 10%;
-  width: 80%;
-  color: #FFFFFF; }
+  top: 2rem;
+  left: 5%;
+  width: 90%;
+  color: #FFFFFF;
+  z-index: 20; }
+  @media (min-width: 40em) {
+    .breaker__top {
+      top: 4rem;
+      left: 10%;
+      width: 80%; } }
   @media (min-width: 64em) {
     .breaker__top {
       top: 6.5rem; } }
@@ -19,19 +25,28 @@
   @media (min-width: 64em) {
     .eyebrow.breaker__eyebrow {
       margin: 0 auto 3rem; } }
+  @media (min-width: 64em) {
+    .eyebrow.breaker__eyebrow {
+      margin: 0 auto 3rem; } }
 
 .breaker__heading {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
+  @media (min-width: 40em) {
+    .breaker__heading {
+      margin-bottom: 1.5rem; } }
   @media (min-width: 64em) {
     .breaker__heading {
-      margin-bottom: 3rem; } }
+      margin-bottom: 1rem; } }
 
 .breaker__cards {
   width: 90%;
   margin: -5rem auto 4rem;
   position: relative;
   z-index: 30; }
+  @media (min-width: 40em) {
+    .breaker__cards {
+      margin-top: -7rem; } }
   @media (min-width: 64em) {
     .breaker__cards {
       display: flex;

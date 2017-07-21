@@ -5,7 +5,7 @@
   "body": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.",
   "items": [
     {
-      "icon": "twitter",
+      "icon": "instagram",
       "heading": "Fully responsive content",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
@@ -17,7 +17,7 @@
       "heading_level": ""
     },
     {
-      "icon": "twitter",
+      "icon": "youtube",
       "heading": "Fully responsive content",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""

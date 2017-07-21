@@ -56,7 +56,6 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.25rem;
   margin: 0 0 1rem;
   font-weight: 300;
   font-family: "Merriweather", serif; }
@@ -72,6 +71,9 @@ h2 {
   @media (min-width: 55em) {
     h2 {
       font-size: 3rem; } }
+  @media (min-width: 64em) {
+    h2 {
+      font-size: 5rem; } }
 
 h3 {
   font-size: 2rem; }
@@ -457,10 +459,16 @@ li {
 
 .breaker__top {
   position: absolute;
-  top: 3rem;
-  left: 10%;
-  width: 80%;
-  color: #FFFFFF; }
+  top: 2rem;
+  left: 5%;
+  width: 90%;
+  color: #FFFFFF;
+  z-index: 20; }
+  @media (min-width: 40em) {
+    .breaker__top {
+      top: 4rem;
+      left: 10%;
+      width: 80%; } }
   @media (min-width: 64em) {
     .breaker__top {
       top: 6.5rem; } }
@@ -473,19 +481,28 @@ li {
   @media (min-width: 64em) {
     .eyebrow.breaker__eyebrow {
       margin: 0 auto 3rem; } }
+  @media (min-width: 64em) {
+    .eyebrow.breaker__eyebrow {
+      margin: 0 auto 3rem; } }
 
 .breaker__heading {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
+  @media (min-width: 40em) {
+    .breaker__heading {
+      margin-bottom: 1.5rem; } }
   @media (min-width: 64em) {
     .breaker__heading {
-      margin-bottom: 3rem; } }
+      margin-bottom: 1rem; } }
 
 .breaker__cards {
   width: 90%;
   margin: -5rem auto 4rem;
   position: relative;
   z-index: 30; }
+  @media (min-width: 40em) {
+    .breaker__cards {
+      margin-top: -7rem; } }
   @media (min-width: 64em) {
     .breaker__cards {
       display: flex;
@@ -529,16 +546,53 @@ li {
 
 
 .hero__image {
+  height: 350px;
+  overflow: hidden;
   position: relative;
+  width: 100%;
   line-height: 0.8;
   overflow: hidden; }
   .hero__image::before {
     content: '';
     display: block;
-    background: rgba(1, 38, 53, 0.8);
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0; }
+    background: #012635;
+    opacity: 0.8;
+    z-index: 10; }
+  .hero__image picture,
+  .hero__image img {
+    height: 100%;
+    left: 50%;
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; }
+  .hero__image picture,
+  .hero__image img.lazyload,
+  .hero__image img.lazyloading {
+    width: 100%; }
+  @media (min-width: 64em) {
+    .hero__image {
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      width: 100%; }
+      .hero__image picture,
+      .hero__image img {
+        height: 100%;
+        left: 50%;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: auto; }
+      .hero__image picture,
+      .hero__image img.lazyload,
+      .hero__image img.lazyloading {
+        width: 100%; } }
 

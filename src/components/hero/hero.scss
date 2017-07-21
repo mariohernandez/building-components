@@ -10,18 +10,12 @@
 @import '../../global/utils/init';
 
 .hero__image {
-  position: relative;
+  @include overlay(0.8);
+  @include image-crop($hero-height-tall-sm);
   line-height: 0.8;
   overflow: hidden;
 
-  &::before {
-    content: '';
-    display: block;
-    background: rgba($color-navy-blue, 0.8);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  @include breakpoint($bp-md) {
+    @include image-crop($hero-height-tall-md);
   }
 }
