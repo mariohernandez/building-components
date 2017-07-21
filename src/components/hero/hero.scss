@@ -1,0 +1,27 @@
+// Hero
+//
+// This is the hero component.
+//
+// Markup: hero.twig
+//
+// Style guide: Components.Hero
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.hero__image {
+  position: relative;
+  line-height: 0.8;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    display: block;
+    background: rgba($color-navy-blue, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

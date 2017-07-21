@@ -1,0 +1,15 @@
+.card {
+  padding: 4rem 2rem; }
+
+.card__heading {
+  font-size: 2rem;
+  margin-bottom: 2rem; }
+
+.card__icon--item {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.card__icon {
+  fill: #464646;
+  height: 6rem;
+  width: auto; }

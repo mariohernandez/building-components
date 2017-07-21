@@ -1,0 +1,27 @@
+{
+  "image": "<img src='../assets/hero.png' alt='Alt text'>",
+  "eyebrow": "Drupal Development",
+  "heading": "Component main heading here",
+  "body": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.",
+  "items": [
+    {
+      "icon": "twitter",
+      "heading": "Fully responsive content",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
+      "heading_level": ""
+    },
+    {
+      "icon": "twitter",
+      "heading": "Fully responsive content",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
+      "heading_level": ""
+    },
+    {
+      "icon": "twitter",
+      "heading": "Fully responsive content",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
+      "heading_level": ""
+    }
+  ],
+  "class": ""
+}

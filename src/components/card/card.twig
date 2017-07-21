@@ -1,0 +1,15 @@
+{% import '@components/icons/icons.twig' as icons %}
+{% set heading_level = heading_level|default(2) %}
+<div class="card {{ class|default('') }}">
+  <div class="card__icon--item">
+    {{ icons.get(icon, 'card__icon') }}
+  </div>
+  {%
+    include '@components/heading/heading.twig' with {
+      'heading': heading,
+      'heading_level': 3,
+      'class': 'card__heading',
+    } only
+  %}
+  <p>{{ body }}</p>
+</div>

@@ -1,0 +1,16 @@
+// Type
+//
+// Custom fonts are loaded via JavaScript provided by fonts.com.
+//
+// Markup:
+// <h5>$font-primary</h5>
+// <div style="font: 20px/2; margin-top: 1rem; margin-bottom: 2rem; 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'"> HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif </div>
+// <h5>font-secondary</h5>
+// <div style="font: 20px/2; margin-top: 1rem; margin-bottom: 2rem; 'Arial', 'Verdana', 'sans-serif'"> Arial, Verdana, sans-serif </div>
+//
+// Weight: 999
+//
+// Style guide: Type
+
+$font-primary: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-secondary: Arial, Verdana, sans-serif;

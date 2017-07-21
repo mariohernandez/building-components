@@ -1,0 +1,72 @@
+// Breaker
+//
+// This is the breaker component.
+//
+// Markup: breaker.twig
+//
+// Style guide: Components.Breaker
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.breaker {
+  position: relative;
+}
+
+.breaker__top {
+  position: absolute;
+  top: 3rem;
+  left: 10%;
+  width: 80%;
+  color: $color-white;
+
+  @include breakpoint($bp-md) {
+    top: 6.5rem;
+  }
+}
+
+.eyebrow.breaker__eyebrow {
+  background: transparent;
+  text-align: center;
+  display: block;
+  margin: 0 auto 1.5rem;
+
+  @include breakpoint($bp-md) {
+    margin: 0 auto 3rem;
+  }
+}
+
+.breaker__heading {
+  font-family: $font-secondary;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+
+  @include breakpoint($bp-md) {
+    margin-bottom: 3rem;
+  }
+}
+
+.breaker__cards {
+  // display: flex;
+  width: 90%;
+  margin: -5rem auto 4rem;
+  position: relative;
+  z-index: $zi-medium;
+
+  @include breakpoint($bp-md) {
+    display: flex;
+    margin-top: -10rem;
+  }
+}
+
+.breaker__card {
+  background: $color-gallery;
+
+  &--first {
+    background: lighten($color-gallery, 5%);
+  }
+
+  &--last {
+    background: darken($color-gallery, 5%);
+  }
+}

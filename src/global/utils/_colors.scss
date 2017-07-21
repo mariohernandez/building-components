@@ -1,0 +1,61 @@
+// Colors
+//
+// All Sass color variables prefixed with $color-.
+// This makes it easy to figure out what a variable
+// is for later.
+//
+// Markup:
+// <h3>Primary</h3>
+// <div class="kss-swatch" style="background-color: #012635">
+//   <div class="kss-swatch__hex">$color-navy-blue<br>#012635</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #003954">
+//   <div class="kss-swatch__hex">$color-ocean-blue<br>#003954</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #A16C00">
+//   <div class="kss-swatch__hex">$color-gold<br>#A16C00</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #E4B038">
+//   <div class="kss-swatch__hex">$color-yellow<br>#E4B038</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #FFFFFF">
+//   <div class="kss-swatch__hex">$color-black<br>#FFFFFF</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #000000">
+//   <div class="kss-swatch__hex">$color-black<br>#000000</div>
+// </div>
+// <h3>Grays</h3>
+// <div class="kss-swatch" style="background-color: #464646">
+//   <div class="kss-swatch__hex">$color-tundora<br>#464646</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #bbb">
+//   <div class="kss-swatch__hex">$color-silver<br>#bbb</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #ddd">
+//   <div class="kss-swatch__hex">$color-alto<br>#ddd</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #eee">
+//   <div class="kss-swatch__hex">$color-gallery<br>#eee</div>
+// </div>
+// <div class="kss-swatch" style="background-color: #f7f7f7">
+//   <div class="kss-swatch__hex">$color-alabaster<br>#f7f7f7</div>
+// </div>
+//
+// Weight: 999
+//
+// Style guide: colors
+
+// Primary Brand Colors
+$color-navy-blue: #012635;
+$color-ocean-blue: #003954;
+$color-gold: #A16C00;
+$color-yellow: #E4B038;
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+// Grays
+$color-tundora: #464646;
+$color-silver: #bbb;
+$color-alto: #ddd;
+$color-gallery: #eee;
+$color-alabaster: #f7f7f7;

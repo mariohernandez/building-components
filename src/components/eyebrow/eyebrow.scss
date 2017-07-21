@@ -1,0 +1,23 @@
+// Eyebrow
+//
+// This is the eyebrow component. It's an example.
+//
+// Markup: eyebrow.twig
+//
+// Style guide: Components.eyebrow
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.eyebrow {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  line-height: 1;
+  background: $color-navy-blue;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  letter-spacing: 0.10rem;
+  font-weight: 300;
+}

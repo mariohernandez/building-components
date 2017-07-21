@@ -1,0 +1,47 @@
+<div class="breaker">
+  {%
+    include '@components/hero/hero.twig' with {
+      'image': image,
+      'class': 'breaker__hero',
+    } only
+  %}
+
+  <div class="breaker__top">
+    {%
+      include '@components/eyebrow/eyebrow.twig' with {
+        'label': eyebrow,
+        'class': 'breaker__eyebrow',
+      } only
+    %}
+
+    {%
+      include '@components/heading/heading.twig' with {
+        'heading': heading,
+        'class': 'breaker__heading',
+      } only
+    %}
+
+    <div class="breaker__intro">{{ body }}</div>
+  </div>
+
+  <div class="breaker__cards">
+    {% for item in items %}
+      {% if loop.first %}
+        {% set class = 'breaker__card breaker__card--first' %}
+      {% elseif loop.last %}
+        {% set class = 'breaker__card breaker__card--last' %}
+      {% else %}
+        {% set class = 'breaker__card' %}
+      {% endif %}
+
+      {%
+        include '@components/card/card.twig' with {
+          'icon': item.icon,
+          'heading': item.heading,
+          'body': item.body,
+          'class': class,
+        } only
+      %}
+    {% endfor %}
+  </div>
+</div>
