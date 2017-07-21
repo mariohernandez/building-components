@@ -8,7 +8,7 @@ effectively build components.  Main goal of building components is to reduce cod
 
 
 ## Breaker code
-*Note*:  I've suppressed some of the code to make it look cleaner but the overall structure still remains.--
+**Note**:  I've suppressed some of the code to make it look cleaner but the overall structure still remains.
 
 
 ```html
