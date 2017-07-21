@@ -32,7 +32,8 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #464646; }
+  color: #464646;
+  font-weight: 300; }
 
 /**
  * Add the correct display in IE 9-.
@@ -57,6 +58,7 @@ h5,
 h6 {
   line-height: 1.25rem;
   margin: 0 0 1rem;
+  font-weight: 300;
   font-family: "Merriweather", serif; }
 
 h1 {
