@@ -4,15 +4,19 @@
 //
 // Markup:
 // <h5>$font-primary</h5>
-// <div style="font: 20px/2; margin-top: 1rem; margin-bottom: 2rem; 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'"> HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif </div>
-// <h5>font-secondary</h5>
-// <div style="font: 20px/2; margin-top: 1rem; margin-bottom: 2rem; 'Arial', 'Verdana', 'sans-serif'"> Arial, Verdana, sans-serif </div>
+// <div style="font: 20px/2; margin-top: 1rem; margin-bottom: 2rem; 'Raleway'"> Raleway </div>
+// <h5>$font-secondary</h5>
+// <div style="font: 20px/2 'Merriweather'; margin-top: 1rem; margin-bottom: 2rem;"> Merriweather </div>
+// <h5>$font-tertiary</h5>
+// <div style="font: 20px/2 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin-top: 1rem; margin-bottom: 2rem;"> 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif </div>
 //
 // Weight: 999
 //
 // Style guide: Type
 $font-primary: 'Raleway', sans-serif;
+
 $font-secondary: 'Merriweather', serif;
+
 $font-tertiary: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 // For primary and secondary fonts implementation, look in `src/style-guide/builder/index.twig.  You will see the font references in the page's <head>.
