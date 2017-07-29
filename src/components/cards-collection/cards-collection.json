@@ -1,22 +1,22 @@
 {
   "items": [
     {
-      "icon": "twitter",
-      "heading": "Fully responsive content",
+      "icon": "responsive",
+      "heading": "Fully Responsive Content",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": "",
       "class": ""
     },
     {
-      "icon": "instagram",
-      "heading": "Fully responsive content",
+      "icon": "layout",
+      "heading": "Flexible Layouts",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": "",
       "class": ""
     },
     {
-      "icon": "youtube",
-      "heading": "Fully responsive content",
+      "icon": "preview",
+      "heading": "Improved Preview",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": "",
       "class": ""

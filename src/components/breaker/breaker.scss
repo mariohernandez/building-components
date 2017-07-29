@@ -76,8 +76,7 @@
   }
 }
 
-.breaker__card {
-  background: $color-gallery;
+.card.breaker__card {
 
   &--first {
     background: lighten($color-gallery, 5%);

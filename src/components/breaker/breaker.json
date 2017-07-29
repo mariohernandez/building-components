@@ -1,24 +1,24 @@
 {
   "image": "<img src='../assets/hero.png' alt='Alt text'>",
   "eyebrow": "Drupal Development",
-  "heading": "Component main heading here",
+  "heading": "Content workflow",
   "body": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.",
   "items": [
     {
-      "icon": "instagram",
-      "heading": "Fully responsive content",
+      "icon": "responsive",
+      "heading": "Fully Responsive Content",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
     },
     {
-      "icon": "twitter",
-      "heading": "Fully responsive content",
+      "icon": "layout",
+      "heading": "Flexible Layouts",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
     },
     {
-      "icon": "youtube",
-      "heading": "Fully responsive content",
+      "icon": "preview",
+      "heading": "Improved Previews",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
     }

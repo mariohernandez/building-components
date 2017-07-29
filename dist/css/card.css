@@ -1,5 +1,6 @@
 .card {
-  padding: 4rem 2rem; }
+  padding: 4rem 2rem;
+  background: #eee; }
 
 .card__heading {
   font-size: 2rem;
