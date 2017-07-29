@@ -471,7 +471,9 @@ li {
       width: 80%; } }
   @media (min-width: 64em) {
     .breaker__top {
-      top: 6.5rem; } }
+      top: 6.5rem;
+      left: 15%;
+      width: 70%; } }
 
 .eyebrow.breaker__eyebrow {
   background: transparent;
@@ -487,7 +489,8 @@ li {
 
 .breaker__heading {
   margin-bottom: 1rem;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: center; }
   @media (min-width: 40em) {
     .breaker__heading {
       margin-bottom: 1.5rem; } }
@@ -545,7 +548,7 @@ li {
 
 
 .hero__image {
-  height: 350px;
+  height: 440px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -577,7 +580,7 @@ li {
     width: 100%; }
   @media (min-width: 64em) {
     .hero__image {
-      height: 400px;
+      height: 450px;
       overflow: hidden;
       position: relative;
       width: 100%; }

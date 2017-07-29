@@ -1,18 +1,18 @@
 {
   "image": "<img src='../assets/hero.png' alt='Alt text'>",
   "eyebrow": "Drupal Development",
-  "heading": "Content workflow",
-  "body": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.",
+  "heading": "Content Creation Workflow",
+  "body": "Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.",
   "items": [
     {
       "icon": "responsive",
-      "heading": "Fully Responsive Content",
+      "heading": "Truly Responsive Content",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
     },
     {
       "icon": "layout",
-      "heading": "Flexible Layouts",
+      "heading": "Flexible Page Layouts",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       "heading_level": ""
     },

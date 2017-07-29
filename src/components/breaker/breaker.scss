@@ -29,6 +29,8 @@
 
   @include breakpoint($bp-md) {
     top: 6.5rem;
+    left: 15%;
+    width: 70%;
   }
 }
 
@@ -50,6 +52,7 @@
 .breaker__heading {
   margin-bottom: 1rem;
   font-weight: 300;
+  text-align: center;
 
   @include breakpoint($bp-xsm) {
     margin-bottom: 1.5rem;

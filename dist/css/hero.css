@@ -1,5 +1,5 @@
 .hero__image {
-  height: 350px;
+  height: 440px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -31,7 +31,7 @@
     width: 100%; }
   @media (min-width: 64em) {
     .hero__image {
-      height: 400px;
+      height: 450px;
       overflow: hidden;
       position: relative;
       width: 100%; }
